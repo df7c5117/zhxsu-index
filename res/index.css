@@ -54,7 +54,7 @@ a {
 }
 
 .main .main-logo {
-	margin: 60px auto 30px auto
+	margin: 40px auto 30px auto
 }
 
 .main .img-logo {
@@ -162,7 +162,7 @@ a {
 
 .navi{
 	position: fixed;
-	top: 30px;
+	top: 20px;
 	padding:0 15px 0 15px;
 	z-index:333;
 }
