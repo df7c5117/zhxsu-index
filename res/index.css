@@ -54,7 +54,7 @@ a {
 }
 
 .main .main-logo {
-	margin: 20px auto 30px auto
+	margin: 60px auto 30px auto
 }
 
 .main .img-logo {
@@ -155,17 +155,19 @@ a {
 
 .foot{
 	position:absolute;
+	text-align: center;
 	top: 900px;
-	padding:0 18% 0 18% 
+	margin:0 250px 0 250px 
 }
 
 .navi{
-	position: absolute;
-	top: 0px;
-	z-index:333
+	position: fixed;
+	top: 30px;
+	padding:0 15px 0 15px;
+	z-index:333;
 }
 .navlink{
 	color:#fff;
-	margin:0 30px 0 30px;
+	margin:0 15px 0 15px;
 	text-shadow:#000 0px 0px 15px;
 }
