@@ -13,6 +13,7 @@ body {
 a {
 	text-decoration: none;
 	z-index:9999999;
+	font-family: "microsoft yahei";
 }
 
 
@@ -35,11 +36,11 @@ a {
 }
 
 .bg .page-bg.bg-signup {
-	background: url('bg_sign.jpg') top center
+	background: url('bg_sign.png') top center
 }
 
 .bg .page-bg.bg-susage {
-	background: url('bg_susage.jpg') top center
+	background: url('bg_susage.png') top center
 }
 
 
