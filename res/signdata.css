@@ -1,0 +1,67 @@
+@charset 'UTF-8';
+
+html,body,div,img,video,source,p,span,a {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background: url('bg_sign.png') fixed;
+	width:100%;
+}
+
+.headimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    z-index: 10;
+}
+
+
+.navi{
+	position: fixed;
+	top:0px;
+	padding:10px 15px 0 15px;
+	z-index:333;
+	width:100%;
+	height: 35px;
+	background:rgba(0,0,0,.5);
+}
+.navlink{
+	color:#fff;
+	margin:0 15px 0 15px;
+}
+
+.card-container{
+	position:absolute;
+	top:70px;
+	width:70%;
+	left:14%;
+	padding:30px 30px 50px 30px;
+}
+.infopanel{
+	margin-top: 30px;
+	padding:30px 30px 50px 30px;
+	margin-bottom: 0px
+}
+.infosubtitle{
+	color:#4fb4f7;
+}
+.tip{
+	display:inline-block;
+	margin-top:12px;
+	margin-left: 16px 
+}
+.submit
+{
+	position:absolute;
+	display: inline-block;
+	bottom:7px;
+	right:10px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	width:120px;
+	display:inherit;
+	color:#fff;background-color:#4CAF50
+}
