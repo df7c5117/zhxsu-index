@@ -1,0 +1,189 @@
+@charset 'UTF-8';
+
+html,body,div,img,video,source,p,span,a {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background: #fff;
+	width:100%;
+}
+
+a {
+	text-decoration: none;
+	z-index:9999999;
+	font-family: "microsoft yahei";
+}
+
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1088px
+}
+
+.bg .page-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1088px;
+	width: 100%;
+	z-index: 0;
+	display: none
+}
+
+.bg .page-bg.bg-signup {
+	background: url('../res/bg_sign.png') top center
+}
+
+.bg .page-bg.bg-susage {
+	background: url('../res/bg_susage.png') top center
+}
+
+
+.main {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 5;
+	width: 910px;
+	height: 80%;
+	margin-left: -443px
+}
+
+.main .main-logo {
+	margin: 40px auto 30px auto
+}
+
+.main .img-logo {
+	display: block;
+	margin: 0 auto
+}
+
+.main .main-left,.main .main-right {
+	position: relative;
+	float: left;
+	height: 449px;
+	cursor: pointer
+}
+
+.main .main-right {
+	float: right
+}
+
+.main .change-handle {
+	position: relative;
+	width: 443px;
+	overflow: hidden;
+	border-radius: 10px;
+	z-index: 1
+}
+
+.main .sign-btn {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	line-height: 440px;
+	font-size: 30px;
+	color: #fff;
+	background: rgba(0,0,0,.47);
+	border-radius: 8px;
+	text-align: center;
+	letter-spacing: 100
+}
+
+.main .suser-btn {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background: rgba(0,0,0,.47);
+	line-height: 220px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 100
+}
+
+.main .sadmin-btn {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background: rgba(0,0,0,.47);
+	line-height: 220px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 100
+}
+
+.main .suser-btn:hover {
+	background: rgba(77,181,247,.72);
+	transition: 0.4s
+}
+.main .sign-btn:hover {
+	background: rgba(240,98,146,.72);
+	transition: 0.4s
+}
+
+.main .sadmin-btn:hover {
+	background: rgba(0,230,118,.72);
+	transition: 0.4s
+}
+
+.img-logo
+{
+	width:256px;
+	height:268px;
+}
+.subox1{
+	position: inherit;
+	opacity: 0;
+	width:100%;
+	height:100%;
+}
+
+.subox1:hover{
+	opacity: 1;
+	transition: 0.4s;
+	background: url('../res/blur_sign.png') top center
+}
+.subox2{
+	position: inherit;
+	opacity: 0;
+	width:100%;
+	height:100%;
+}
+
+.subox2:hover{
+	opacity: 1;
+	transition: 0.4s;
+	background: url('../res/blur_susage.png') top center
+}
+
+.foot{
+	position:absolute;
+	text-align: center;
+	top: 900px;
+	margin:0 250px 0 250px 
+}
+
+.navi{
+	position: fixed;
+	top: 20px;
+	padding:0 15px 0 15px;
+	z-index:333;
+}
+.navlink{
+	color:#fff;
+	margin:0 15px 0 15px;
+	text-shadow:#000 0px 0px 15px;
+}
