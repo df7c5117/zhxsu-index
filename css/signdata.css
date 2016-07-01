@@ -1,89 +1,20 @@
-.screen {
-	position:absolute;
+@charset 'UTF-8';
+
+html,body,div,img,video,source,p,span,a {
+	margin: 0;
+	padding: 0
+}
+
+body {
 	width:100%;
-	height:100%;
-	overflow:hidden;
-}
-
-header {
-	position:absolute;
-	left:0;
-	top:0;
-	right:0;
-	height:44px;
-	overflow:hidden;
-	background:#fff;
-	z-index:2;
-}
-
-header h1 {
-position: relative;
-	font-family:"Helvetica Neue","Helvetica",sans-serif;
-	font-weight:normal;
-	font-size:1rem;
-	margin:0;
-	padding:0;
-	line-height:44px;
-	text-align:center;
- 	z-index: 2;
-  	font-weight:300;
-	box-shadow:inset 0 -1px 0 rgba(255,255,255,.25);
-}
-
-.content-blurred {
-	margin-top:44px;
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	-webkit-filter:blur(10px);
-	filter:url(#blur-effect);
-	opacity:.35;
-  	z-index: 0;
-}
-
-.content-wrapper {
-	position:relative;
-	padding:0 1rem;
-	z-index:1;
-	height:100%;
-	overflow:auto;
-  	-webkit-backface-visibility:hidden;
-	background: url('../res/bg_sign.png') fixed;
-}
-
-.content-wrapper .content {
- 	margin-top:44px;
-}
-
-.content {
-	display:block;
-	padding-top:1em;	
-}
-.navi{
-	position: fixed;
-	top:0px;
-	z-index:333;
-	width:100%;
-	height: 45px;
-	background:#424242;
-}
-.linkbox{
-	position: fixed;
-	top:0px;
-	padding:12px 15px 0 15px;
-	z-index: 999;
-	width:100%;
-	height: 45px;
-}
-.navlink{
-	color:#fff;
-	margin:0 15px 0 15px;
+    background: url('../res/bg_sign.png')fixed;  
+    background-position: center 0!important;
+    background-repeat: no-repeat;
 }
 
 .card-container{
 	position:absolute;
-	top:70px;
+	top:50px;
 	width:70%;
 	left:14%;
 	padding:30px 30px 50px 30px;
@@ -111,4 +42,71 @@ position: relative;
 	width:120px;
 	display:inherit;
 	color:#fff;background-color:#4CAF50
+}
+.navbox{
+	height: 50px;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.1) 0 1px 2px;
+    top: 0;
+    left: -40px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serifsans-serif;
+    color: #222;
+}
+.headblur{
+	height: 50px;
+    background:transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    z-index: 10000;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serifsans-serif;
+    color: #222;
+}
+.wrp{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.navfix{
+	position: absolute;
+    height: 65px;
+    padding: 0 20px;
+    top: -10px;
+    left: -30px;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: 50;
+    background-position: center 0!important;
+    background-repeat: no-repeat;
+}
+.linkbox{
+	position:absolute;
+	top:0px;
+	left:12px;
+	padding:14px 15px 0 12px;
+	z-index:333;
+	width:100%;
+	height: 36px;
+	background:rgba(0,0,0,.2);
+}
+.links{
+	padding-left: 16px
+}
+.navlink{
+	color:#fff;
+	margin:0 15px 0 15px;
+}
+.tlfix{
+	left:15px;
+
 }
