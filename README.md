@@ -19,7 +19,7 @@
 <p>  </p>
 <b>Contact:zhxsuwebgroup@live.com</b>
 <p>  </p>
-<b>Every one can modified it except for the already existing codes </b>
+<b>Everyone can modified it except for the already existing codes </b>
 <p>  </p>
 <br></br>
 <b>本Repo原作 @df7c5117</b>
