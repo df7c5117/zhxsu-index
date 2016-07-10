@@ -144,6 +144,8 @@ a {
 	width:256px;
 	height:268px;
 }
+
+/* Box */
 .subox1{
 	position: inherit;
 	opacity: 0;
@@ -154,8 +156,9 @@ a {
 .subox1:hover{
 	opacity: 1;
 	transition: 0.4s;
-	background: url('../res/blur_sign.png') top center
+	background: url('../res/blur_sign.png') top center;
 }
+
 .subox2{
 	position: inherit;
 	opacity: 0;
@@ -166,9 +169,10 @@ a {
 .subox2:hover{
 	opacity: 1;
 	transition: 0.4s;
-	background: url('../res/blur_susage.png') top center
+	background: url('../res/blur_susage.png') top center;
 }
 
+/* Foot|Nav */
 .foot{
 	position:absolute;
 	text-align: center;
@@ -182,6 +186,7 @@ a {
 	padding:0 15px 0 15px;
 	z-index:333;
 }
+
 .navlink{
 	color:#fff;
 	margin:0 15px 0 15px;
