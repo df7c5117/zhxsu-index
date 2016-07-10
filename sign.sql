@@ -1,33 +1,26 @@
--- phpMyAdmin SQL Dump
--- version 3.5.3
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Jul 10, 2016 at 02:02 PM
--- Server version: 5.1.62
--- PHP Version: 5.4.8
-
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `susage_oa`
---
+CREATE DATABASE IF NOT EXISTS `susage_oa` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `susage_oa`;
 
--- --------------------------------------------------------
+CREATE TABLE `sign_admin` (
+  `AdminID` int(11) NOT NULL,
+  `Username` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `Password` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `Dep` varchar(3) COLLATE utf8_unicode_ci NOT NULL COMMENT '用户所在部门'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Table structure for table `sign`
---
+INSERT INTO `sign_admin` (`AdminID`, `Username`, `Password`, `Dep`) VALUES
+(1, '37thDNB', '076ea832a66b4b75c668d8d722354ee4', '电脑部');
 
-CREATE TABLE IF NOT EXISTS `sign` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `sign_studata` (
+  `id` int(11) NOT NULL,
   `stuName` varchar(4) COLLATE utf8_unicode_ci NOT NULL,
   `stuClass` varchar(2) COLLATE utf8_unicode_ci NOT NULL,
   `stuSex` varchar(1) COLLATE utf8_unicode_ci NOT NULL,
@@ -37,10 +30,21 @@ CREATE TABLE IF NOT EXISTS `sign` (
   `stuWeChat` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
   `SignDep` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
   `Contact` varchar(1000) COLLATE utf8_unicode_ci NOT NULL,
-  `SignTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+  `SignTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+
+ALTER TABLE `sign_admin`
+  ADD PRIMARY KEY (`AdminID`);
+
+ALTER TABLE `sign_studata`
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `sign_admin`
+  MODIFY `AdminID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `sign_studata`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

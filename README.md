@@ -2,15 +2,15 @@
 
 <b>执信中学学生会主页 开源项目 </b>
 
-<b>目前总体开发进度：约40%，当前build:1A82 (082)</b>
+<b>目前总体开发进度：约40%，当前build:1A87 (087)</b>
 
-<b>项目总阶段：0.5-milestone5 #Project SUindex m5 PHPing</b>
+<b>项目总阶段：0.5-milestone5 #Project SUindex M5 PHPing</b>
 
 
 <p>suindex V0.5-milestone5</p>
-<p>SignUp V0.6-milestone5</p>
-<p>SignUp Back-End V0.1-milestone1</p>
-<p><b>Latest update：2016.7.10 15:10</b></p>
+<p>SignUp V0.5-milestone5</p>
+<p>SignUp Back-End V0.2-milestone1</p>
+<p><b>Latest update：2016.7.10 22:07</b></p>
 <b>©2016 执信学生会 电脑部</b>
 <p>  </p>
 <b>Created By @df7c5117 | @ZhxsuWebGroup</b>
@@ -32,6 +32,7 @@
   <p>2016-7-10</p>
   <p>* 修改部分文件名</p>
   <p>* 开始进行PHP开发</p>
+  <p>* 新增报名系统后台</p>
 <h3>亟待修复</h3>
   <p>报名成功后无法Alert提示</p>
 <hr>
