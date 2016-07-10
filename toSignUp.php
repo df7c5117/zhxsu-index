@@ -21,7 +21,7 @@ if(isset($_POST) && $_POST){
   $dep=urldecode(json_encode($ckdep));
   
   //往数据库添加数据
-  $sql="INSERT INTO sign(stuName,stuSex,stuClass,stuPhone,stuMail,stuQQ,stuWeChat,SignDep,Contact) VALUES ('{$name}','{$sex}','{$class}','{$phone}','{$mail}','{$qq}','{$wechat}','{$dep}','{$contact}')";
+  $sql="INSERT INTO sign_studata(stuName,stuSex,stuClass,stuPhone,stuMail,stuQQ,stuWeChat,SignDep,Contact) VALUES ('{$name}','{$sex}','{$class}','{$phone}','{$mail}','{$qq}','{$wechat}','{$dep}','{$contact}')";
   $rs=mysqli_query($conn,$sql);
   
   //判断是否添加成功
