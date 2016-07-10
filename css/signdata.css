@@ -7,7 +7,7 @@ html,body,div,img,video,source,p,span,a {
 
 body {
 	width:100%;
-    background: url('../res/bg_sign.png')fixed;  
+    background: url('../res/bg_sign.jpg')fixed;  
     background-position: center 0!important;
     background-repeat: no-repeat;
 }
@@ -22,7 +22,9 @@ body {
 .infopanel{
 	margin-top: 30px;
 	padding:30px 30px 50px 30px;
-	margin-bottom: 0px
+	margin-bottom: 0px;
+	background-color: #fff;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
 }
 .infosubtitle{
 	color:#4fb4f7;

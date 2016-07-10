@@ -36,11 +36,11 @@ a {
 }
 
 .bg .page-bg.bg-signup {
-	background: url('../res/bg_sign.png') top center
+	background: url('../res/bg_sign.jpg') top center
 }
 
 .bg .page-bg.bg-susage {
-	background: url('../res/bg_susage.png') top center
+	background: url('../res/bg_susage.jpg') top center
 }
 
 
@@ -175,7 +175,6 @@ a {
 /* Foot|Nav */
 .foot{
 	position:absolute;
-	text-align: center;
 	top: 900px;
 	margin:0 250px 0 250px 
 }

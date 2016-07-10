@@ -49,7 +49,7 @@ if(isset($_POST) && $_POST){
   <div class="navbox">
     <div class="headblur">
       <div class="wrp">
-        <div class="navfix" style="background-image: url('./res/bg_sign.png');"></div>
+        <div class="navfix" style="background-image: url('./res/bg_sign.jpg');"></div>
         <div class="navbg"></div>
       </div>
       <div class="linkbox">
@@ -66,7 +66,7 @@ if(isset($_POST) && $_POST){
   </div>
 <form method="POST">   
 <div class="card-container">
-<div class="card infopanel" z=5>
+<div class="card infopanel">
 <h2>欢迎到来！</h2>
 <h3 class="infosubtitle">请填写一些必要信息</h3>
 <p style="color:red">带*为必填</p>
@@ -85,7 +85,7 @@ if(isset($_POST) && $_POST){
 </div>
 
 
-<div class="card infopanel" z=5>
+<div class="card infopanel">
 <h2>接下来呢……</h2>
 <h3 class="infosubtitle">请告诉我们你的联系方式</h3>
 <div>
@@ -97,7 +97,7 @@ if(isset($_POST) && $_POST){
 </div>
                         
 
-<div class="card infopanel" z=5>
+<div class="card infopanel">
 <h2>想必你已经跃跃欲试了！</h2>
 <h3 class="infosubtitle">还记得你刚浏览过的感兴趣的部门吗？</h3>
 <p style="color:#27ae60">如果忘了，点击名称可以再次查看哦~</p>
@@ -163,7 +163,7 @@ if(isset($_POST) && $_POST){
 </div>
 </div>
 
-<div class="card infopanel" z=5>
+<div class="card infopanel">
   <h2>说点什么吧！</h2>
   <h3 class="infosubtitle">介绍一下你自己</h3>
   <p>你可以写下你的特长、爱好、专业技术、之前的工作经验，<br>为了更好地了解你，你可以留下你的社交网站地址，包括微博、豆瓣、知乎、lofter、<s>bilibili、GitHub</s>等等等等</p>
@@ -182,7 +182,7 @@ if(isset($_POST) && $_POST){
     <input type="text" class="text-input" placeholder="请输入验证码" name="verify_code" id="verify_code" autocomplete="off">
     <!--img id="code" onClick="getCode()"-->
   </div>
-  <input type="submit" class="submit btn raised" style="margin-top: 30px" value="确认报名">
+  <input type="submit" class="submit btn raised green" style="margin-top: 30px" value="确认报名">
   </center>
   
 </div>

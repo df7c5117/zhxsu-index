@@ -116,3 +116,150 @@ body {
 	left:15px;
 
 }
+
+.zg-link {
+    cursor: pointer;
+    text-decoration: none
+}
+.zg-link:hover {
+    text-decoration: underline
+}
+.zg-link-disabled:hover {
+    text-decoration: none;
+    cursor: not-allowed
+}
+
+@media (max-width:959px) {
+.zu-main.no-sidebar .zu-main-content-inner {
+    margin: 0 10px
+}
+}
+.zu-main-content {
+    float: left;
+    width: 100%
+}
+.zu-main-content-inner {
+    position: relative;
+    margin: 0 328px 0 0
+}
+.zm-item-answer, .zm-item {
+    position: relative;
+    padding: 0;
+    outline: 0
+}
+.zm-item-answer {
+    margin-left: 48px
+}
+.zm-item-answer .answer-head {
+    min-height: 25px
+}
+.zm-item-title {
+    margin: 0 30px 3px 0
+}
+.zm-item-answer-owner .zm-item-vote {
+    display: block!important
+}
+.zm-item .zm-item-btn-collapse a {
+    display: inline;
+    padding-right: 14px;
+    background: url(/static/revved/img/fold-video.eb40a520.png) no-repeat right center
+}
+.zm-item-answer-cc {
+    display: inline-block
+}
+.zm-item-answer-summary {
+    display: none
+}
+.zh-answers-title {
+    position: relative;
+    padding: 10px 0;
+    line-height: 24px;
+    border-top: 1px solid #EEE
+}
+.zh-answers-title h3 {
+    margin: 0;
+    display: inline
+}
+.zh-answers-title h3 a {
+    font-size: 13px
+}
+.top-nav-dropdown li {
+    margin: 0;
+    list-style: none
+}
+.top-nav-dropdown li a {
+    display: block;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    border-top: 1px solid #0d5aa5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer
+}
+.zm-votebar .up, .zm-votebar .down {
+    display: block;
+    color: #698ebf;
+    height: 24px;
+    line-height: 24px;
+    width: 38px;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    background: #eff6fa;
+    font-weight: 700;
+    font-weight: 500;
+    text-align: center;
+    position: relative
+}
+.zm-votebar .up {
+    padding-top: 18px;
+    height: 44px
+}
+.zm-votebar .down {
+    margin: 5px 0 0
+}
+.zm-votebar .count {
+    display: block;
+    padding-left: 0px;
+}
+.zm-votebar .vote-arrow {
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    font-size: 0;
+    border-style: dashed;
+    background-image: none
+}
+.zm-votebar .up .vote-arrow {
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    margin-left: -6px;
+    border-top-width: 0;
+    border-bottom-color: #698ebf;
+    border-top-style: solid
+}
+.zm-votebar .down .vote-arrow {
+    border-bottom-width: 0;
+    border-top-color: #698ebf
+}
+.zm-votebar {
+    float: left;
+    margin-left: -48px
+}
+.zm-item-tag {
+    background: #eff6fa;
+    color: #0d5aa5;
+    padding: 1px 10px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    float: left;
+    white-space: nowrap
+}
