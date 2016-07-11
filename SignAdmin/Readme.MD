@@ -2,7 +2,7 @@
 
 ## 系统简介
 
-**SUindex-Sign-Back-end V0.1 Millstone1**
+**SUindex-Sign-Back-end V0.2 Millstone2**
 
 ---
 
@@ -28,7 +28,7 @@
 
 ## 亟待修复
 
-1. 登录成功后的主页面
+1. 学生报名详细信息
 
 ---
 

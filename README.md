@@ -2,15 +2,15 @@
 
 <b>执信中学学生会主页 开源项目 </b>
 
-<b>目前总体开发进度：约40%，当前build:1A87 (087)</b>
+<b>目前总体开发进度：约40%，当前build:1B04 (104)</b>
 
 <b>项目总阶段：0.5-milestone5 #Project SUindex M5 PHPing</b>
 
 
 <p>suindex V0.5-milestone5</p>
 <p>SignUp V0.5-milestone5</p>
-<p>SignUp Back-End V0.2-milestone1</p>
-<p><b>Latest update：2016.7.10 22:07</b></p>
+<p>SignUp Back-End V0.2-milestone2</p>
+<p><b>Latest update：2016.7.11 12:19</b></p>
 <b>©2016 执信学生会 电脑部</b>
 <p>  </p>
 <b>Created By @df7c5117 | @ZhxsuWebGroup</b>
