@@ -2,7 +2,7 @@
 
 ## 系统简介
 
-**SUindex-Sign-Back-end V0.2 Millstone2**
+**SUindex-Sign-Back-end V0.3 Millstone3**
 
 ---
 
@@ -16,6 +16,8 @@
 
 测试密码：supc
 
+测试用户部门：电脑部
+
 ## 数据库配置
 
 只需在安装整个报名系统时导入sign.sql即可
@@ -28,7 +30,7 @@
 
 ## 亟待修复
 
-1. 学生报名详细信息
+CSS是小生蚝（后端程序猿）的硬伤……
 
 ---
 
