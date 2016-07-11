@@ -13,20 +13,25 @@ if(isset($_POST) && $_POST){
   $wechat=$_POST['stuWeChat'];
   $ckdep=@$_POST['dep'];
   $contact=$_POST['contact'];
-  
+  array_unshift($ckdep,"");
+
   //获取选中部门
   foreach($ckdep as $key => $value){
     $ckdep[$key]=urlencode($value);
   }  
   $dep=urldecode(json_encode($ckdep));
-  
+  $alert="";
+  foreach($ckdep as $a){
+    $alert.=urldecode($a).' | ';
+  }
+
   //往数据库添加数据
   $sql="INSERT INTO sign_studata(stuName,stuSex,stuClass,stuPhone,stuMail,stuQQ,stuWeChat,SignDep,Contact) VALUES ('{$name}','{$sex}','{$class}','{$phone}','{$mail}','{$qq}','{$wechat}','{$dep}','{$contact}')";
   $rs=mysqli_query($conn,$sql);
   
   //判断是否添加成功
   if($rs==true){
-    $alert='恭喜您成功报名！\n以下为您的报名信息：\n————————————\n姓名：'.$name.'\n班别：高一（'.$class.'）班\n联系电话：'.$phone.'\n报名部门：'.$dep;
+    $alert='恭喜您成功报名！\n以下为您的报名信息：\n————————————\n姓名：'.$name.'\n班别：高一（'.$class.'）班\n联系电话：'.$phone.'\n报名部门：'.$alert;
     echo todie(1,$alert,"index.html");
   }else{
     echo todie(1,$sql,"#");

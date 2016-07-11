@@ -24,10 +24,13 @@ $query=mysqli_query($conn,$sql);
   <th>报名部门</th>
   <th>详情</th>
 </tr>
+
 <?php
 while($rs=mysqli_fetch_row($query)){
   $rsdep=json_decode($rs['8']);
-  if(array_search($_SESSION['dep'],$rsdep)!=""){
+  $r=(int)array_search($_SESSION['dep'],$rsdep);
+  var_dump($r);
+  if($r>0){
     echo "<tr>";
     echo "<td>$rs[0]</td>";
     echo "<td>$rs[1]</td>";
