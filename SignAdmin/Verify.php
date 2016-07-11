@@ -18,6 +18,7 @@ else if($pwd==$indb_pwd){
   $_SESSION['signlogged']=true;
   $_SESSION['signtk']=gettk();
   $_SESSION['dep']=$rs['Dep'];
+  $_SESSION['username']=$rs['Username'];
   die("6|".$_SESSION['signtk']);
 }
 else{die(0);}

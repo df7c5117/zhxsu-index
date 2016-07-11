@@ -21,15 +21,18 @@ if(isset($_POST['go'])){Header("Location:".$url);}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>学生会报名系统后台 :: 详细信息</title>
   <link rel="shortcut icon" href="../res/favicon.ico">
-  <link rel="stylesheet" href="../css/signup.css">
-  <link rel="stylesheet" href="../css/material.css">
+  <link rel="stylesheet" href="../css/admin.css">
 <style>
-th{background-color:pink;color:green;}
+th{color:green;}
 </style>
 </head>
 
 <body>
-<table border="1">
+<div>
+<h2 style="color:#4fb4f7">执信学生会报名系统<span style="font-size: 14px"> / 控制台 </span><span style="font-size: 14px;background-color:#00c853;color:#fff;border-radius: 5px;padding:0 5px 0 5px">α</span>&#12288;<a class="nav" href="#">重置密码</a>&#12288;<a  class="nav" href="#">导出Excel</a><span class="loginfo">欢迎回来，<?php echo($_SESSION['username']);?>。<br>你现在查看的是<?php echo($_SESSION['dep']);?>的报名数据</span></h2>
+</div>
+<center>
+<table border="0" cellspacing="0" cellpadding="6">
 <tr>
   <th>ID</th>
   <td><?php echo $rs['id']; ?></td>
@@ -67,7 +70,7 @@ th{background-color:pink;color:green;}
   <td><?php echo $_SESSION['dep']; ?></td>
 </tr>
 <tr>
-  <th>聊天</th>
+  <th>附言</th>
   <td><?php echo $rs['Contact']; ?></td>
 </tr>
 <tr>
@@ -77,5 +80,8 @@ th{background-color:pink;color:green;}
 </table>
 
 <form method="post">
-<input class="submit btn raised green" style="margin-top:30px;margin-left:30px" type="submit" name="go" value="返回主页">
+<input class="btn" style="margin-top:30px;margin-left:30px" type="submit" name="go" value="返回主页">
 </form>
+
+</center>
+</body>
