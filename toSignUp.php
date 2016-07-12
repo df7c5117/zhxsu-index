@@ -89,10 +89,10 @@ if(isset($_POST) && $_POST){
 <p style="color:red">带*为必填</p>
 <div>
   <input required="required" class="text-input" name="stuName" placeholder="尊姓大名 *" MaxLength="4"/>
-  <input type="radio" name="stuSex" value="男">男<input type="radio" name="stuSex" value="女">女
+  <input class="rad" type="radio" name="stuSex" value="男"><span style="color:#4fb4f7">帅气的男孩纸</span>&#12288;<input class="rad" type="radio" name="stuSex" value="女"><span style="color:pink">可爱的萌妹纸</span>
   
   <span class="tip">高一级</span>
-  <select name="stuClass">
+  <select name="stuClass" class="selector">
   <?php
   for($s=1;$s<=17;$s++){
   echo "<option value='$s'>$s</option>";}
@@ -118,6 +118,7 @@ if(isset($_POST) && $_POST){
 <h2>想必你已经跃跃欲试了！</h2>
 <h3 class="infosubtitle">还记得你刚浏览过的感兴趣的部门吗？</h3>
 <p style="color:#27ae60">如果忘了，点击名称可以再次查看哦~</p>
+<p style="color:#27ae60">为了正常的生产生活，推荐选择不超过2个部门</p>
 <div style="z-index:999999">
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;">
     <input type="checkbox" id="checkNWB" name="dep[]" value="内务部">
@@ -195,9 +196,9 @@ if(isset($_POST) && $_POST){
     <label for="checkbox" style="display:inline-block"></label>
     <span>我已阅读并同意<a href="" target="_blank">报名须知</a></span>
   </div>
-  <div style="margin-top: 15px">
+  <div style="margin-top: 30px">
     <?php echo $question; ?>
-    <input type="text" class="text-input" placeholder="请输入验证码" name="verify_code" autocomplete="off">
+    <input type="text" class="text-input" style="display:inline-block;margin-top:-15px" placeholder="请输入括号中的验证答案" name="verify_code" autocomplete="off">
   </div>
   <input type="submit" class="submit btn raised green" style="margin-top: 30px" value="确认报名">
   </center>
@@ -208,5 +209,4 @@ if(isset($_POST) && $_POST){
 
 <!-- js -->
 <script type="text/javascript" src="./res/jquery.min.js"></script>
-<!--<script type="text/javascript" src="./res/index.js"></script>-->
 </body></html>
