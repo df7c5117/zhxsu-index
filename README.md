@@ -2,7 +2,7 @@
 
 <b>执信中学学生会主页 开源项目 </b>
 
-<b>目前总体开发进度：约40%，当前build:1B15 (0115)</b>
+<b>目前总体开发进度：约50%，当前build:1B20 (0120)</b>
 
 <b>项目总阶段：0.5-milestone5 #Project SUindex M5 PHPing</b>
 
@@ -10,7 +10,7 @@
 <p>suindex V0.5-milestone5</p>
 <p>SignUp V0.5-milestone6</p>
 <p>SignUp Back-End V0.4-milestone4/p>
-<p><b>Latest update：2016.7.11 19:55</b></p>
+<p><b>Latest update：2016.7.12 15:24</b></p>
 <b>©2016 执信学生会 电脑部</b>
 <p>  </p>
 <b>Created By @df7c5117 | @ZhxsuWebGroup</b>
@@ -29,6 +29,9 @@
 <h3>数据库配置</h3>
   <p>新建“susage_oa”数据库，再导入<b>“sign.sql”文件</b></p>
 <h3>近期的事情</h3>
+  <p>2016-7-12</p>
+  <p>* 增加问答式验证码</p>
+  <hr>
   <p>2016-7-10</p>
   <p>* 修改部分文件名</p>
   <p>* 开始进行PHP开发</p>

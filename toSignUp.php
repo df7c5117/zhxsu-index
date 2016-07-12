@@ -1,7 +1,18 @@
 <?php
+define("Root",$_SERVER['DOCUMENT_ROOT']);
 require_once("Include/functions.php");
+require_once(Root."/Captcha/function.Captcha.php");
+
+$ran=mt_rand(0,$TotalQuest);
+$question=GetQuestion($ran);
+
 if(isset($_POST) && $_POST){
   require_once("Include/conn.php");
+  
+  //先判断验证码
+  $num=$_POST['num'];
+  $code=$_POST['verify_code'];
+  CheckCaptcha($num,$code);
   
   //获取用户输入内容
   $name=$_POST['stuName'];
@@ -69,7 +80,8 @@ if(isset($_POST) && $_POST){
       </div>
     </div>
   </div>
-<form method="POST">   
+<form method="POST">
+<input type="hidden" name="num" value="<?php echo $ran; ?>">
 <div class="card-container">
 <div class="card infopanel">
 <h2>欢迎到来！</h2>
@@ -184,8 +196,8 @@ if(isset($_POST) && $_POST){
     <span>我已阅读并同意<a href="" target="_blank">报名须知</a></span>
   </div>
   <div style="margin-top: 15px">
-    <input type="text" class="text-input" placeholder="请输入验证码" name="verify_code" id="verify_code" autocomplete="off">
-    <!--img id="code" onClick="getCode()"-->
+    <?php echo $question; ?>
+    <input type="text" class="text-input" placeholder="请输入验证码" name="verify_code" autocomplete="off">
   </div>
   <input type="submit" class="submit btn raised green" style="margin-top: 30px" value="确认报名">
   </center>
