@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set("Asia/Shanghai");	 $conn=@mysqli_connect("localhost","root","","susage_oa");
+date_default_timezone_set("Asia/Shanghai");	 $conn=@mysqli_connect("localhost","root","","susage");
 
 //PHP内置函数（Errno为错误码）
 if(mysqli_connect_errno($conn)){

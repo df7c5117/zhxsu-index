@@ -1,12 +1,42 @@
-p,h1,h2{font-family: "microsoft yahei";font-weight: normal;}
+@charset "utf-8";
+/** 
+Zhixin StudentUnion Signup-Back-end CSS
+Author: @df7c5117 执信37届电脑部APP组组长
+Helper: @SmallOyster 执信17届初中5班小生蚝
+Date:   2016-07-15
+*/
+
+
+/* Basic Settings */
+p,h1,h2{
+  font-family: "microsoft yahei";
+  font-weight: normal;
+}
 a{color:#4caf50;}
-a:hover{color:#4fb4f7;transition: 0.6s;}
+a:hover{
+  color:#4fb4f7;
+  transition: 0.6s;
+}
+
+/* Table */
 tr{background: #e9e9e9;} 
-tr:nth-child(2n){background: #fff; } 
-tr{background-color: expression((this.sectionRowIndex % 2 == 0) ?   "#f00" : "#ccc" ); }
+tr:nth-child(2n){background: #fff;} 
+tr{background-color: expression((this.sectionRowIndex % 2 == 0)?"#f00":"#ccc");}
 table{border:1px solid #bbb;}
-.loginfo{float:right;font-size: 8px}
+
+/* NavBar */
+.loginfo{float:right;font-size: 12px}
+.perinfo{color:#AB47BC;}
 .nav{font-size:14px}
+.version{
+  font-size: 14px;
+  background-color:#FFA000;
+  color:#fff;
+  border-radius: 5px;
+  padding:0 5px 0 5px
+}
+
+/* Button */
 .btn {
 	position: relative;
 	border: 0;
@@ -21,10 +51,11 @@ table{border:1px solid #bbb;}
 	-webkit-transition: all .1s;
 	transition: all .1s;
 	text-align: center;
-	background:transparent;
+	background: transparent;
 	cursor: pointer;
 	color:#4caf50;
 }
 .btn:hover{
-	color:#4fb4f7;transition: 0.6s
+	color:#4fb4f7;
+	transition: 0.6s;
 }

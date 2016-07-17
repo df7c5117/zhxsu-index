@@ -28,9 +28,8 @@ th{color:green;}
 </head>
 
 <body>
-<div>
-<h2 style="color:#4fb4f7">执信学生会报名系统<span style="font-size: 14px"> / 控制台 </span><span style="font-size: 14px;background-color:#00c853;color:#fff;border-radius: 5px;padding:0 5px 0 5px">α</span>&#12288;<a class="nav" href="#">重置密码</a>&#12288;<a  class="nav" href="#">导出Excel</a><span class="loginfo">欢迎回来，<?php echo($_SESSION['username']);?>。<br>你现在查看的是<?php echo($_SESSION['dep']);?>的报名数据</span></h2>
-</div>
+<?php include("ShowNavBar.php"); ?>
+
 <center>
 <table border="0" cellspacing="0" cellpadding="6">
 <tr>
