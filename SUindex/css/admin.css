@@ -59,3 +59,17 @@ table{border:1px solid #bbb;}
 	color:#4fb4f7;
 	transition: 0.6s;
 }
+.txtbox{
+	border:none;
+	border-bottom:2px solid #bbb;
+	height:30px;
+	margin-bottom: 15px;
+	width:30%;
+}
+select{
+	border:none;
+	border-bottom:2px solid #bbb;
+}
+.txtbox:focus,select:focus{
+	outline:none;
+}

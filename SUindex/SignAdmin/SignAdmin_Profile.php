@@ -34,13 +34,21 @@ if(isset($_POST) && $_POST){
   <link rel="shortcut icon" href="../res/favicon.ico">
   <link rel="stylesheet" href="../css/admin.css">
 </head>
+<link rel="stylesheet" href="../css/admin.css">
+<style>
+  #resetpwd{display: none}
+  #rtindex{display: inline-block}
+</style>
 <body>
-
+<?php include("ShowNavBar.php"); ?>
+<center>
 <form method="post">
-  用户名：<input type="text" name="UsrName" value=<?php echo $usr; ?> disabled><br>
-  用户所属部门：<input type="text" name="UsrDep"><br>
-  原密码：<input type="password" name="OldPass"><br>
-  新密码：<input type="password" name="NewPass"><br>
-  再次输入新密码：<input type="password" name="Verify"><br>
-  <input type="submit" value="确认修改">
+  <p>密码重置 / Password Reset</p>
+  <input class="txtbox" type="text" name="UsrName" value=<?php echo $usr; echo"&#12288;(你的用户名，暂不提供更改）";?> disabled><br>
+  <input class="txtbox" type="text" name="UsrDep" placeholder="用户所属部门"><br>
+  <input class="txtbox" type="password" name="OldPass" placeholder="原密码"><br>
+  <input class="txtbox" type="password" name="NewPass" placeholder="新密码"><br>
+  <input class="txtbox" type="password" name="Verify" placeholder="再次输入新密码"><br>
+  <input type="submit" class="btn" value="确认修改">
 </form>
+</center>

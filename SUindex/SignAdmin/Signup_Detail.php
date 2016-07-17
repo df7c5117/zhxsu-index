@@ -24,12 +24,12 @@ if(isset($_POST['go'])){Header("Location:".$url);}
   <link rel="stylesheet" href="../css/admin.css">
 <style>
 th{color:green;}
+#rtindex{display:none}
 </style>
 </head>
 
 <body>
 <?php include("ShowNavBar.php"); ?>
-
 <center>
 <table border="0" cellspacing="0" cellpadding="6">
 <tr>

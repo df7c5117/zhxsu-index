@@ -41,14 +41,28 @@ echo todie(0,"","Signup_Console.php?psize=".$diysize."&page=".$page."&signtk=".$
   <title>学生会报名系统后台 :: 控制台</title>
   <link rel="shortcut icon" href="../res/favicon.ico">
   <link rel="stylesheet" href="../css/admin.css">
+  <style>#rtindex{display: none}</style>
 </head>
 
 <body>
 <?php include("ShowNavBar.php"); ?>
 
 <center>
-<h4>报名信息
-共<?php echo $totalpage."页，当前第".$page."页"; ?></h4>
+<form method="post" id="size">
+报名信息共 <?php echo $totalpage." 页，当前第 ".$page." 页"; ?>。
+<span>你可以选择每页显示数量：</span>
+<select name="PageSize" onchange="changeSize()">
+<?php
+echo "<option value='$size' selected='selected'>$size</option>";
+$w=array_search($size,$arraysize);
+array_splice($arraysize,$w,1);
+foreach($arraysize as $value){
+  echo "<option value='$value'>$value</option>";
+}
+?>
+</select>
+
+</form>
 <table border="0" cellspacing="0" cellpadding="6" style="width:80%;text-align: left">
 <tr>
   <th>ID</th>
@@ -73,19 +87,6 @@ while($rs=mysqli_fetch_row($info)){
 }
 ?>
 </table>
-
-<form method="post" id="size">
-<select name="PageSize" onchange="changeSize()">
-<?php
-echo "<option value='$size' selected='selected'>$size</option>";
-$w=array_search($size,$arraysize);
-array_splice($arraysize,$w,1);
-foreach($arraysize as $value){
-  echo "<option value='$value'>$value</option>";
-}
-?>
-</select>
-</form>
 
 </center>
 
