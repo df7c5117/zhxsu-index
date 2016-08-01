@@ -2,7 +2,7 @@
 
 <b>执信中学学生会主页 开源项目 </b>
 
-<b>目前总体开发进度：约50%，当前build:1B33 (0133)</b>
+<b>目前总体开发进度：约50%，当前build:1B51 (0151)</b>
 
 <b>项目总阶段：0.5-milestone5 #Project SUindex M5 PHPing</b>
 

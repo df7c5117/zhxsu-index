@@ -201,3 +201,15 @@ body {
     float: left;
     white-space: nowrap
 }
+.contact
+{
+    display:inline-block;
+    width:150px;
+    margin:0 15px 0 15px;
+ }
+ .job
+{
+    font-size: 16px;
+    color: #00c857;
+    text-align:center;
+}
