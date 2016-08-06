@@ -74,7 +74,7 @@ if(isset($_POST) && $_POST){
           <a class="navlink" href="index.html" >回主页</a>
             
           <div style="float:right">
-            <a class="navlink" href="#about" title="幕后黑历史">关于我们</a><a class="navlink" href="http://weibo.com/zxsu32nd" title="为啥不来关注w">微博</a><span class="navlink"><span style="font-size:5px;background: #27AE60;border-radius: 5px;padding:0px 5px 0px 5px">微信公众号</span>  gzzxsu</span>
+            <!--<a class="navlink" href="#about" title="幕后黑历史">关于我们</a>--><a class="navlink" href="http://weibo.com/zxsu32nd" title="为啥不来关注w">微博</a><span class="navlink"><span style="font-size:5px;background: #27AE60;border-radius: 5px;padding:0px 5px 0px 5px">微信公众号</span>  gzzxsu</span>
           </div>
         </div>
       </div>

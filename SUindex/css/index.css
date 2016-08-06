@@ -156,7 +156,7 @@ a {
 .subox1:hover{
 	opacity: 1;
 	transition: 0.4s;
-	background: url('../res/blur_sign.png') top center;
+	background: url('../res/blur_sign.jpg') top center;
 }
 
 .subox2{
@@ -169,7 +169,7 @@ a {
 .subox2:hover{
 	opacity: 1;
 	transition: 0.4s;
-	background: url('../res/blur_susage.png') top center;
+	background: url('../res/blur_susage.jpg') top center;
 }
 
 /* Foot|Nav */

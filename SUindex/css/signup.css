@@ -213,3 +213,13 @@ body {
     color: #00c857;
     text-align:center;
 }
+.avatar{
+    height:55px;width:55px;border-radius:10px;
+    position:absolute;right:35px;margin-right:5px;
+}
+.bio{
+    font-size:14px;font-family:'microsoft yahei'
+}
+.container{
+    position:relative;padding-left:100px;padding-right:45px;width:auto;line-height:0px;margin-top: 30px
+}
