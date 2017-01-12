@@ -4,20 +4,18 @@
 
 <b>目前总体开发进度：约50%，当前build:1B75 (0175)</b>
 
-<b>项目总阶段：0.5-milestone5 #Project SUindex M5 PHPing</b>
+<b>项目总阶段：0.5-milestone5 #Project SUindex M5</b>
 
 
 <p>suindex V0.5-milestone5</p>
 <p>SignUp V0.5-milestone6</p>
-<p>SignUp Back-End V0.4-milestone4/p>
+<p>SignUp Back-End V0.4-milestone4</p>
 <p><b>Latest update：2016.7.17 15:57</b></p>
 <b>©2016 执信学生会 电脑部</b>
 <p>  </p>
 <b>Created By @df7c5117 | @ZhxsuWebGroup</b>
 <p>  </p>
 <b>特别鸣谢：@SmallOyster</b>
-<p>  </p>
-<b>Contact:zhxsuwebgroup@live.com</b>
 <p>  </p>
 <b>Everyone can modified it except for the already existing codes </b>
 <p>  </p>
