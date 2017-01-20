@@ -1,7 +1,7 @@
 
-﻿**Zhixin StudentUnion Index OS Project **
+﻿**Zhixin StudentUnion Index OS Project**
 
-**执信中学学生会主页 开源项目 **
+**执信中学学生会主页 开源项目**
 
 **目前总体开发进度：100%，当前build:1C00 (0200)**
 
