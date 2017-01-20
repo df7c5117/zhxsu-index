@@ -18,7 +18,7 @@ SignUp Back-End V1.0-R2
 
 **©2017 执信学生会 电脑部**
 
-**Created By @df7c5117 | @ZhxsuWebGroup**
+**Created By @df7c5117 | @Zhxsu SUPC APPGroup**
 
 **特别鸣谢：@SmallOyster**
 
