@@ -70,11 +70,11 @@ if(isset($_POST) && $_POST){
       </div>
       <div class="linkbox">
         <div class="links">   
-          <span class="navlink">执信学生会 / 报名平台 <span style="font-size:5px;background: #4fb4f7;border-radius: 5px;padding:0px 5px 0px 5px">Beta</span></span>
+          <span class="navlink">执信学生会 / 加入我们 </span>
           <a class="navlink" href="index.html" >回主页</a>
             
           <div style="float:right">
-            <!--<a class="navlink" href="#about" title="幕后黑历史">关于我们</a>--><a class="navlink" href="http://weibo.com/zxsu32nd" title="为啥不来关注w">微博</a><span class="navlink"><span style="font-size:5px;background: #27AE60;border-radius: 5px;padding:0px 5px 0px 5px">微信公众号</span>  gzzxsu</span>
+            <a class="navlink" href="http://weibo.com/zxsu32nd" title="为啥不来关注w">微博</a><span class="navlink"><span style="font-size:5px;background: #27AE60;border-radius: 5px;padding:0px 5px 0px 5px">微信公众号</span>  gzzxsu</span>
           </div>
         </div>
       </div>
@@ -123,60 +123,60 @@ if(isset($_POST) && $_POST){
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;">
     <input type="checkbox" id="checkNWB" name="dep[]" value="内务部">
     <label for="checkNWB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">内务部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621124&idx=1&sn=5acbb196e0f77312e8634451d566c66a&scene=4#wechat_redirect" target="_blank" class="lablink">内务部</a></span>
   </div>
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;float: right">
     <input type="checkbox" id="checkGGB" name="dep[]" value="公关部">
     <label for="checkGGB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">公关部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621124&idx=1&sn=5acbb196e0f77312e8634451d566c66a&scene=4#wechat_redirect" target="_blank" class="lablink">公关部</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;">
     <input type="checkbox" id="checkDNB" name="dep[]" value="电脑部">
     <label for="checkDNB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">电脑部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621125&idx=1&sn=5427c17dcb8164e00632ad7f6b1b736b&scene=4#wechat_redirect" target="_blank" class="lablink">电脑部</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;float: right">
     <input type="checkbox" id="checkDST" name="dep[]" value="电视台">
     <label for="checkDST" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">电视台</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621125&idx=1&sn=5427c17dcb8164e00632ad7f6b1b736b&scene=4#wechat_redirect" target="_blank" class="lablink">电视台</a></span>
   </div>
 
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;">
     <input type="checkbox" id="checkGBZ" name="dep[]" value="广播站">
     <label for="checkGBZ" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">广播站</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621125&idx=1&sn=5427c17dcb8164e00632ad7f6b1b736b&scene=4#wechat_redirect" target="_blank" class="lablink">广播站</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;float: right">
     <input type="checkbox" id="checkAU" name="dep[]" value="社联">
     <label for="checkAU" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">社&#12288;联</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621125&idx=1&sn=5427c17dcb8164e00632ad7f6b1b736b&scene=4#wechat_redirect" target="_blank" class="lablink">社&#12288;联</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;">
     <input type="checkbox" id="checkWYB" name="dep[]" value="文娱部">
     <label for="checkWYB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">文娱部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621124&idx=1&sn=5acbb196e0f77312e8634451d566c66a&scene=4#wechat_redirect" target="_blank" class="lablink">文娱部</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;float: right">
     <input type="checkbox" id="checkXCB" name="dep[]" value="宣传部">
     <label for="checkXCB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">宣传部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621125&idx=1&sn=5427c17dcb8164e00632ad7f6b1b736b&scene=4#wechat_redirect" target="_blank" class="lablink">宣传部</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;">
     <input type="checkbox" id="checkXSB" name="dep[]" value="学术部">
     <label for="checkXSB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">学术部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621124&idx=1&sn=5acbb196e0f77312e8634451d566c66a&scene=4#wechat_redirect" target="_blank" class="lablink">学术部</a></span>
   </div>
   
   <div class="checkbox" style="margin:15px 15% 0 15%;display:inline-block;float: right">
     <input type="checkbox" id="checkTYB" name="dep[]" value="体育部">
     <label for="checkTYB" style="display:inline-block"></label>
-    <span><a href="#" target="_blank" class="lablink">体育部</a></span>
+    <span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODkzMjAwMw==&mid=2649621124&idx=1&sn=5acbb196e0f77312e8634451d566c66a&scene=4#wechat_redirect" target="_blank" class="lablink">体育部</a></span>
   </div>
 </div>
 </div>
