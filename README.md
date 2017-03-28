@@ -7,6 +7,7 @@
 
 **项目总阶段：1.0-Release3 #Project SUindex R1**
 
+## 新版官网代码已转移至index2.0分支。
 
 suindex V1.0-R4
 
