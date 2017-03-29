@@ -9,6 +9,7 @@
 
 ## 新版官网代码已转移至index2.0分支。
 
+### index2.0分支由于性能欠佳已被重置为index3.0（修改中）
 suindex V1.0-R4
 
 SignUp V1.0-R2
