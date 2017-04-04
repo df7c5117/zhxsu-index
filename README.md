@@ -1,5 +1,8 @@
+## 3.0正式版本：(https://github.com/zhxsu/zhxsu-index/tree/index3.0)
 
-﻿**Zhixin StudentUnion Index OS Project**
+
+
+**Zhixin StudentUnion Index OS Project**
 
 **执信中学学生会主页 开源项目**
 
@@ -11,7 +14,6 @@
 
 <s>### index2.0分支由于性能欠佳已被重置为index3.0（修改中）</s>
 
-### 3.0正式版本：(https://github.com/zhxsu/zhxsu-index/tree/index3.0)
 suindex V1.0-R4
 
 SignUp V1.0-R2
