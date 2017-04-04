@@ -7,9 +7,11 @@
 
 **项目总阶段：1.0-Release3 #Project SUindex R1**
 
-## 新版官网代码已转移至index2.0分支。
+<s>### 新版官网代码已转移至index2.0分支。</s>
 
-### index2.0分支由于性能欠佳已被重置为index3.0（修改中）
+<s>### index2.0分支由于性能欠佳已被重置为index3.0（修改中）</s>
+
+### 3.0正式版本：(https://github.com/zhxsu/zhxsu-index/tree/index3.0)
 suindex V1.0-R4
 
 SignUp V1.0-R2
