@@ -69,7 +69,8 @@ html::-webkit-scrollbar-thumb,div::-webkit-scrollbar-thumb{
 	box-shadow:none
 }
 .hide{
-	opacity:0
+	opacity:0;
+    visibility: hidden;
 }
 /*navbar style*/
 	/*navbar transparent style*/
@@ -131,4 +132,15 @@ html::-webkit-scrollbar-thumb,div::-webkit-scrollbar-thumb{
 		height:120%;
 		margin-top:0px
 	}
+}
+
+#wx{
+	position:absolute;
+	right:0;
+	width:410px;
+	margin:15px 20px;
+	float:right;
+    visibility:inherit;
+	opacity:0.9;
+	transition:0.4s ease-in!important
 }

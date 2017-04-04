@@ -12,32 +12,10 @@ $(document).ready(function(){
 	});
 });
 function backtop(){$("body").animate({scrollTop:0})}
-window.onload=function load(){
-	$("#nav").removeClass('hide');
-	$("#nav").addClass('animated fadeInDown');
-	setTimeout("$('#headtwofirst').removeClass('hide');", 400);
-	setTimeout("$('#headtwofirst').addClass('animated fadeInDown');", 400);
-	setTimeout("$('#headtwosecond').removeClass('hide');", 600);
-	setTimeout("$('#headtwosecond').addClass('animated fadeInDown');", 600);
-	setTimeout("$('#headtwosecond').removeClass('hide');", 600);
-	setTimeout("$('#headtwothird').removeClass('hide');", 800);
-	setTimeout("$('#headtwothird').addClass('animated fadeInDown');", 800);
-	setTimeout("$('#actionbtn').removeClass('hide');", 1000);
-	setTimeout("$('#actionbtn').addClass('animated fadeInDown');", 1000);
-}
-function dispqrcode(){
-	$("#qrcode").removeClass('hide');
-	$("#qrcode").addClass('animated fadeInDown');
-}
-function hideqrcode(){
-	$("#qrcode").removeClass('animated fadeInDown');
-	$("#qrcode").addClass('hide');
-}
+
 function dispwx(){
 	$("#wx").removeClass('hide');
-	$("#wx").addClass('animated fadeInDown');
 }
 function hidewx(){
-	$("#wx").removeClass('animated fadeInDown');
 	$("#wx").addClass('hide');
 }

@@ -5,14 +5,6 @@ html,body,div,img,video,source,p,span,a {
     padding: 0
 }
 
-body span,h1,h2,h3{
-    width:100%;
-    font-family:"microsoft yahei";
-    font-weight: lighter;
-}
-a,p{
-    font-family:"microsoft yahei";
-}
 .headimg{
     position: absolute;
     top: -10px;
@@ -43,81 +35,6 @@ a,p{
     display:inline-block;
     margin-top:12px;
     margin-left: 16px 
-}
-.submit
-{
-    position:absolute;
-    display: inline-block;
-    bottom:7px;
-    right:10px;
-    width:120px;
-    display:inherit;
-    color:#fff;background-color:#4CAF50
-}
-.navbox{
-    height: 50px;
-    background: #fff;
-    box-shadow: rgba(0,0,0,0.1) 0 1px 2px;
-    top: 0;
-    left: -40px;
-    width: 100%;
-    position: relative;
-    z-index: 10000;
-    color: #222;
-}
-.headblur{
-    height: 50px;
-    background:transparent;
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: relative;
-    z-index: 10000;
-    color: #222;
-}
-.wrp{
-    position: absolute;
-    top: 0;
-    left: 40px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: #fff;
-}
-.navfix{
-    position: absolute;
-    height: 65px;
-    padding: 0 20px;
-    top: -10px;
-    left: -30px;
-    width: 101%;
-    -webkit-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    z-index: 50;
-    background-position: center 0!important;
-    background-repeat: no-repeat;
-}
-.linkbox{
-    position:absolute;
-    top:0px;
-    left:12px;
-    padding:14px 15px 0 12px;
-    z-index:333;
-    width:100%;
-    height: 36px;
-    background:rgba(0,0,0,.2);
-}
-.links{
-    padding-left: 16px
-}
-.navlink{
-    color:#fff;
-    margin:0 15px 0 15px;
-}
-.tlfix{
-    left:15px;
-
 }
 .pcs-cont{
     height: 950px;
